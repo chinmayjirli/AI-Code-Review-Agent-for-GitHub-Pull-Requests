@@ -1,0 +1,30 @@
+# Target compilation & build outputs
+target/
+*.jar
+*.war
+*.ear
+
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
